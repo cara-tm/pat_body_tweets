@@ -19,3 +19,7 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 
     <txp:pat_body_tweets_live id="" account="" label="" popup="" info="" tooltip="" position="" top="" right="" bottom="" color="" />
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cara-tm/pat-body-tweets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
