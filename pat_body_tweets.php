@@ -86,16 +86,16 @@ function pat_body_tweets_live($atts)
 	extract(lAtts(array(
 		'id' 		=> 'wrapper',
 		'account' 	=> '',
-		'label' 		=> 'Tweet it!',
-		'popup' 		=> false,
+		'label' 	=> 'Tweet it!',
+		'popup' 	=> false,
 		'info' 		=> false,
 		'position' 	=> false,
 		'tooltip' 	=> ' You can Tweet this text on mouse selection ',
 		'top' 		=> '0',
-		'right' 		=> '0',
+		'right' 	=> '0',
 		'bottom' 	=> '0',
-		'color' 		=> '#00aced',
-		'style' 		=> '',
+		'color' 	=> '#00aced',
+		'style' 	=> '',
 	), $atts));
 
 	if ( $account && ($thisarticle['excerpt'] || $thisarticle['body']) ) {
