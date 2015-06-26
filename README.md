@@ -21,7 +21,7 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 
 ## Attributes
 
-> *id* string (optional): the selector id of your HTML content where to limit the live Twitter selection. Default: empty (none)
+> *id* string (optional): the selector id of your HTML content where to limit the live Twitter selection. Default: "wrapper".
 >
 > *account* string (required): your Twitter account (i.e. @txpfr). Default: empty (none).
 >
