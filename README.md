@@ -11,7 +11,7 @@ Add Twitter links into your text content like the comment system into the [Mediu
 
     <txp:pat_body_tweets tag="" full="" sign="" tooltip="" class="" content="" />
 
-## Attribuées
+## Attributes
 
 > *tag* string (optional): choose which HTML tag surronding your text content on where to apply the anchors. Default: p. Note: only p, li, h(1-6) tags are allowed.
 >
