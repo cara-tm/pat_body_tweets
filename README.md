@@ -11,6 +11,21 @@ Add Twitter links into your text content like the comment system into the [Mediu
 
     <txp:pat_body_tweets tag="" full="" sign="" tooltip="" class="" content="" />
 
+## Attribuées
+
+> *tag* string (optional): choose which HTML tag surronding your text content on where to apply the anchors. Default: p. Note: only p, li, h(1-6) tags are allowed.
+>
+> *full* boolean (optional): Sets on 1, the Tweet will ne cut then followed by hyphens un ordre to respect the 140 caractères limit by Twitter. Default: 1 (true).
+>
+> *sign* string (optional): the sign to used un front of each anchors. Default: +.
+>
+> *tooltip* string (optional): the tooltip for each anchors. Default: empty (none).
+>
+> *class* string (optional): the class selector for each anchors. Default: "notes-maker".
+>
+> *content* string (optional): choose among "body" or "excerpt" your text on which to apply the anchors. Default: body.
+
+
 ## Allow your visitors to Tweet parts of your text content on mouse selection (do not generate any anchors, just article URL into the Tweets)
 
 **Usage (IE9+ & all modern browsers capable)**
