@@ -33,7 +33,7 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 >
 > *tooltip* string (optional): the tooltip for the Twitter icon if used. Default: "You can Tweet this text on mouse sélection".
 >
-> *position* boolean (optional).
+> *position* boolean (optional): choose where to place the Twitter icon on the top or on the bottom of your text content identified with the "id" attribute. Default: 0 (top).
 >
 > *top* integer (optional): the CSS value position for the Twitter icon. Default: empty (none).
 >
