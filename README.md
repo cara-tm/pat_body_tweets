@@ -63,6 +63,8 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 > **style** string (optional): any CSS rules to inject for your convenience. Default: *empty* (none).
 >
 
+See [live demo on a real french in production website](http://alexipharmaque.eu/entretiens/entretien-avec-alex-porker-1). 
+
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cara-tm/pat-body-tweets/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
