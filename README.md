@@ -16,11 +16,11 @@ Add Twitter links into your text content, kind of the comment system into the [M
 
 > **tag** string (optional): choose which HTML tag that surronding your text content on where to apply the anchors. Default: p. Note: only p, li, h[1-6] tags are allowed.
 >
-> **full** boolean (optional): Sets on 1, the Tweet will ne cut then followed by hyphens un ordre to respect the 140 caractères limit by Twitter. Default: 1 (true).
+> **full** boolean (optional): Sets on 1, the Tweet will ne cut then followed by hyphens un ordre to respect the 140 caractères limit by Twitter. Default: "*1*" (true).
 >
-> **sign** string (optional): the sign to used un front of each anchors. Default: **+**.
+> **sign** string (optional): the sign to used un front of each anchors. Default: "*+*".
 >
-> **tooltip** string (optional): the tooltip for each anchors. Default: empty (none).
+> **tooltip** string (optional): the tooltip for each anchors. Default: *empty* (none).
 >
 > **class** string (optional): the class selector for each anchors. Default: "*notes-maker*".
 >
@@ -37,29 +37,29 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 
 ## Attributes
 
-> *id* string (optional): the selector id of your HTML content where to limit the live Twitter selection. Usefull to avoid mouse selection onto your entire page template. So, you need to add an id selector on the part which wrap your text contents (i.e. a div). If omitted, this feature can't work. Default: "wrapper".
+> **id** string (optional): the selector id of your HTML content where to limit the live Twitter selection. Usefull to avoid mouse selection onto your entire page template. So, you need to add an id selector on the part which wrap your text contents (i.e. a div). If omitted, this feature can't work. Default: "*wrapper*".
 >
-> *account* string (required): your Twitter account (i.e. @txpfr). Default: empty (none).
+> **account** string (required): your Twitter account (i.e. @txpfr). Default: *empty* (none).
 >
-> *label* string (optional): the alternative text for the Twitter button shown after mouse selection. Default: Tweet it!.
+> **label** string (optional): the alternative text for the Twitter button shown after mouse selection. Default: "*Tweet it!*".
 >
-> *popup* boolean (optional): choose to open the Twitter page into a centered popup. Default: 0 (open a new browser tab).
+> **popup** boolean (optional): choose to open the Twitter page into a centered popup. Default: *0* (open a new browser tab).
 >
-> *info* boolean (optional): choose to display a Twitter icon just after the HTML content designed by the *id* attribute. Usefull to inform your visitors about this feature on your website. Default: 0 (no icon shown).
+> **info** boolean (optional): choose to display a Twitter icon just after the HTML content designed by the *id* attribute. Usefull to inform your visitors about this feature on your website. Default: *0* (no icon shown).
 >
-> *tooltip* string (optional): the tooltip for the Twitter icon if used (see above). Default: "You can Tweet this text on mouse selection".
+> **tooltip** string (optional): the tooltip for the Twitter icon if used (see above). Default: "*You can Tweet this text on mouse selection*".
 >
-> *position* boolean (optional): choose where to place the Twitter icon on the top or on the bottom of your text content identified with the "id" attribute. Default: 0 (top).
+> **position** boolean (optional): choose where to place the Twitter icon on the top or on the bottom of your text content identified with the "id" attribute. Default: *0* (top).
 >
-> *top* integer (optional): the CSS position value (conerted in pixels) for the Twitter icon. Default: empty (none).
+> **top** integer (optional): the CSS position value (conerted in pixels) for the Twitter icon. Default: *empty* (none).
 >
-> *right* integer (optional): same as above for the right position. Default: empty (none).
+> **right** integer (optional): same as above for the right position. Default: *empty* (none).
 >
-> *bottom* integer (optional): same as above for the bottom position. Default: empty (none).
+> *bottom* integer (optional): same as above for the bottom position. Default: *empty* (none).
 >
-> *colors* string (optional): the background color for the Twitter button. Default: official Twitter color.
+> **colors** string (optional): the background color for the Twitter button. Default: *official Twitter color*.
 >
-> *style* string (optional): any CSS rules to inject for your convenience. Default: empty (none).
+> **style** string (optional): any CSS rules to inject for your convenience. Default: *empty* (none).
 
 
 
