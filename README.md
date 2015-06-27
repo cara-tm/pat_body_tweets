@@ -4,7 +4,7 @@ Textpattern CMS plugin.
 
 Add Twitter links into your text content, kind of the comment system into the [Medium's website](http://medium.com) (optional). Allow visitors to Tweet parts of text content on mouse selection same feature as shown on [The (New) Guardian](http://next.theguardian.com) website (optional). Note: These two tags are independents.
 
-## Add an icon for Twitter in front of each text parts (generate an individual anchor into each Tweets)
+## Add an icon for Twitter in front of each text parts (generate an individual anchor into each Tweets and Tweets contain a via, followed by the owner website account prefix)
 
 **All followed tags are intended to be used as single ones, not container ones**.
 
