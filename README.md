@@ -25,6 +25,7 @@ Add Twitter links into your text content, kind of the comment system into the [M
 > **class** string (optional): the class selector for each anchors. Default: "*notes-maker*".
 >
 > **content** string (optional): choose among "body" or "excerpt" your text on which to apply the anchors. Default: "*body*".
+>
 
 
 ## Allow your visitors to Tweet parts of your text content on mouse selection (do not generate any anchors, just article URL into the Tweets)
@@ -39,13 +40,13 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 
 > **id** string (optional): the selector id of your HTML content where to limit the live Twitter selection. Usefull to avoid mouse selection onto your entire page template. So, you need to add an id selector on the part which wrap your text contents (i.e. a div). If omitted, this entire plugin feature can't work. Default: "*wrapper*".
 >
-> **account** string (required): your Twitter account (i.e. @txpfr). Default: *empty* (none).
+> **account** string (required): your Twitter account (i.e.: **@txpfr**). Default: *empty* (none).
 >
 > **label** string (optional): the alternative text for the Twitter button shown after mouse selection that allow to send a tweet. Default: "*Tweet it!*".
 >
-> **popup** boolean (optional): choose to open the Twitter page into a centered popup. Default: *0* (open a new browser tab).
+> **popup** boolean (optional): choose to open the Twitter page into a centered popup. Default: *0* (open a new browser tab). Note: some browsers do not accept popup by default.
 >
-> **info** boolean (optional): choose to display a Twitter icon just after the HTML content designed by the *id* attribute. Usefull to inform your visitors about this feature on your website. Default: *0* (no icon shown).
+> **info** boolean (optional): choose to display a Twitter icon just after the HTML content designed by the *id* attribute (see "id" attribute above). Usefull to inform your visitors about this feature on your website. Default: *0* (no icon shown).
 >
 > **tooltip** string (optional): the tooltip for the Twitter icon if used (see above). Default: "*You can Tweet this text on mouse selection*".
 >
@@ -55,11 +56,12 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 >
 > **right** integer (optional): same as above for the right position. Default: *empty* (none).
 >
-> *bottom* integer (optional): same as above for the bottom position. Default: *empty* (none).
+> **bottom** integer (optional): same as above for the bottom position. Default: *empty* (none).
 >
 > **colors** string (optional): the background color for the Twitter button. Default: *official Twitter color*.
 >
 > **style** string (optional): any CSS rules to inject for your convenience. Default: *empty* (none).
+>
 
 
 
