@@ -14,9 +14,9 @@ Add Twitter links into your text content, kind of the comment system into the [M
 
 ## Attributes
 
-> **tag** string (optional): choose which HTML tag that surronding your text content on where to apply the anchors. Default: p. Note: only p, li, h[1-6] tags are allowed.
+> **tag** string (optional): choose which HTML tag that surronding your text content on where to apply the anchors. Default: p. Note: only **p**, **li**, **h**[1-6] tags are allowed.
 >
-> **full** boolean (optional): Sets on 1, the Tweet will ne cut then followed by hyphens un ordre to respect the 140 caractères limit by Twitter. Default: "*1*" (true).
+> **full** boolean (optional): Sets on 1, the Tweet will be cut then followed by hyphens in order to respect the 140 characters limit by Twitter. Default: "*1*" (true).
 >
 > **sign** string (optional): the sign to used un front of each anchors. Default: "*+*".
 >
