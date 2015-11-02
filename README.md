@@ -8,7 +8,9 @@ Add Twitter links into your text content, kind of the comment system into the [M
 
 **All followed tags are intended to be used as single ones, not container ones**.
 
-**Usage (all browsers capable)**:
+**Usage (all browsers capable)**
+
+in replacement of the default `<txp:body />` tag:
 
     <txp:pat_body_tweets tag="" full="" sign="" tooltip="" class="" content="" />
 
@@ -35,6 +37,8 @@ Add Twitter links into your text content, kind of the comment system into the [M
 Place this code into your page template just before the last <code>&lt;/body&gt;</code> HTML tag:
 
     <txp:pat_body_tweets_live id="" account="" label="" popup="" info="" tooltip="" position="" top="" right="" bottom="" color="" style="" />
+
+Important note: you must wrap the content where you want to apply this plugin feature into `<div id="">`, and set the `id` attribute accordingly.
 
 ## Attributes
 
