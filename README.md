@@ -29,6 +29,7 @@ in replacement of the default `<txp:body />` tag:
 > **content** string (optional): choose among "body" or "excerpt" your text on which to apply the anchors. Default: "*body*".
 >
 
+---------
 
 ## Allow your visitors to Tweet parts of your text content on mouse selection (do not generate any anchors, just article URL into the Tweets)
 
@@ -38,7 +39,7 @@ Place this code into your page template just before the last <code>&lt;/body&gt;
 
     <txp:pat_body_tweets_live id="" account="" label="" popup="" info="" tooltip="" position="" top="" right="" bottom="" color="" style="" />
 
-Important note: you must wrap the content where you want to apply this plugin feature into `<div id="">`, and set the `id` attribute accordingly.
+Important note: you must wrap the content where you want to apply this plugin feature into a `<div id=""> ... </div>`, and set the `id` attribute of the plugin accordingly.
 
 ## Attributes
 
