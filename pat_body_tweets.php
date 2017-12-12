@@ -1,12 +1,12 @@
 <?php
-/*
+/**
  * @name:    pat_body_tweets
  * @author:  © Patrick LEFEVRE, all rights reserved. <patrick[dot]lefevre[at]gmail[dot]com>
  * @link:    http://pat-body-tweets.cara-tm.com
  * @type:    Public
  * @prefs:   no
  * @order:   5
- * @version: 0.3.6
+ * @version: 0.3.5
  * @license: GPLv2
 */
 
